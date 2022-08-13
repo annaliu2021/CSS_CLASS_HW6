@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>
+    <%- title %>
+  </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Noto+Sans+TC:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark-header bottom-line">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo.svg" alt="" width="174" height="42"
+          class="d-none d-md-inline-block align-text-top">
+        <img src="assets/images/logo2.svg" alt="" width="24" height="24"
+          class="d-md-none d-inline-block align-text-top">
+      </a>
+      <a class="toggler d-md-none" role="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div></div>
+        <div></div>
+      </a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">課程介紹</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pe-0" href="#"><i class="fas fa-user-circle me-6"></i>登入</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <%- contents %>
+
+    <footer class="footer bg-dark-footer">
+      <p class="text-center text-secondary fs-7 py-16 py-md-24 lh-sm-185">Coding Home © 2022 All Rights Reserved</p>
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

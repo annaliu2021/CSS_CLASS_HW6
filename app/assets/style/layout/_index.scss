@@ -1,0 +1,87 @@
+body {
+  line-height: 1;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.card .info {
+  max-width: 576px;
+}
+
+.toggler>div {
+  width: 30px;
+  height: 3px;
+  background-color: $soft-green;
+  margin: 6px 0;
+}
+
+.navbar {
+  border-bottom: 1px solid transparent;
+}
+
+.navbar.bottom-line {
+  -moz-border-image: -moz-linear-gradient(top left, #62DB54 0%, #09ACF5 100%);
+  -webkit-border-image: -webkit-linear-gradient(top left, #62DB54 0%, #09ACF5 100%);
+  border-image: linear-gradient(90deg, #62DB54 50%, #09ACF5 50%);
+  border-image-slice: 1;
+}
+
+@media (min-width: 768px) {
+  .footer>p {
+    font-size: 1rem !important;
+  }
+
+}
+
+// ========================================
+// ========================================
+// ========================================
+
+.btn-tag {
+  background-color: transparent;
+  padding: 1rem 2rem;
+  border-radius: $border-radius-lg;
+  margin: 0 1rem;
+}
+
+.btn-tag.active {
+  background-color: transparent;
+  color: $soft-green;
+  border-color: $soft-green;
+}
+
+.btn-class {
+  font-size: $font-size-mm;
+  background-color: transparent;
+  padding: .125rem 3rem;
+  border-radius: $border-radius-lg;
+}
+
+.btn-tag:hover,
+.btn-tag:active,
+.btn-class:hover,
+.btn-class:active {
+  background-color: transparent;
+  color: $soft-green;
+  border-color: $soft-green;
+}
+
+.btn-order {
+  border: 0;
+  background-image: linear-gradient(to right, #09ACF5 0%, #62DB54 100%);
+  color: $primary;
+  border: 0;
+  font-size: $font-size-mm;
+  padding: .125rem 3rem;
+  border-radius: $border-radius-lg;
+}
+
+.lh-sm-185 {
+  line-height: 1.1875;
+}
+
+.price {
+  font-family: 'Azeret Mono', monospace;
+}
