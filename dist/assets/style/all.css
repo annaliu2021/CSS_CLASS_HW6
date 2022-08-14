@@ -15327,7 +15327,7 @@ p {
 .btn-tag {
   background-color: transparent;
   padding: 1rem 2rem;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
   margin: 0 1rem;
 }
 
@@ -15341,7 +15341,7 @@ p {
   font-size: 1.125rem;
   background-color: transparent;
   padding: .125rem 3rem;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 .btn-tag:hover,
@@ -15362,7 +15362,7 @@ p {
   border: 0;
   font-size: 1.125rem;
   padding: .125rem 3rem;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 .lh-sm-185 {
